@@ -20,7 +20,7 @@ json_response=json.loads(response.text)
 #fetch value using jsonpath
 pages=jsonpath.jsonpath(json_response,"total_pages")
 #print(pages[0]) # 2
-assert pages[0]== 2 #verify 
+assert pages[0]== 2 #verify
 
 
 
